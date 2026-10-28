@@ -28,11 +28,11 @@ header .name {
   font-size: 22px;
   letter-spacing: -0.01em;
   /* the fading move: three copies trail off to the left, each blurrier and fainter */
-  text-shadow: -3px 0 0.6px rgba(17, 17, 17, 0.43), -6px 0 1.4px rgba(17, 17, 17, 0.24), -9px 0 2.4px rgba(17, 17, 17, 0.12);
+  text-shadow: -4px 0 1px rgba(17, 17, 17, 0.25), -8px 0 2px rgba(17, 17, 17, 0.14), -12px 0 3.5px rgba(17, 17, 17, 0.07);
 }
 header .name a { color: var(--text); }
 @media (prefers-color-scheme: dark) {
-  header .name { text-shadow: -3px 0 0.6px rgba(245, 245, 247, 0.43), -6px 0 1.4px rgba(245, 245, 247, 0.24), -9px 0 2.4px rgba(245, 245, 247, 0.12); }
+  header .name { text-shadow: -4px 0 1px rgba(245, 245, 247, 0.25), -8px 0 2px rgba(245, 245, 247, 0.14), -12px 0 3.5px rgba(245, 245, 247, 0.07); }
 }
 header .tag { color: var(--muted); font-size: 15px; }
 h1 { font-size: 34px; line-height: 1.15; letter-spacing: -0.01em; margin: 0 0 8px; }
